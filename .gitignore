@@ -1,0 +1,13 @@
+@'
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+# Env files
+.env*
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+'@ | Out-File -Encoding ASCII .gitignore
